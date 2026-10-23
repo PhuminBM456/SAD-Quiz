@@ -14,6 +14,7 @@ export default function App() {
   const [name, setName] = useState(() => localStorage.getItem('quizblast-name') || '')
   const [cats, setCats] = useState([])
   const [count, setCount] = useState(10)
+  const [grouped, setGrouped] = useState(true)
   const [deck, setDeck] = useState([])
   const [idx, setIdx] = useState(0)
   const [left, setLeft] = useState(0)
@@ -50,7 +51,10 @@ export default function App() {
   const start = () => {
     sfx.unlock()
     localStorage.setItem('quizblast-name', name)
-    const d = shuffle(pool).slice(0, count).map(x => {
+    let picked = shuffle(pool).slice(0, count)
+    // เรียงตามหัวข้อ (สุ่มลำดับข้อภายในหัวข้อ) ไม่ให้หัวข้อสลับไปมา
+    if (grouped) picked = picked.map((x, i) => [x, i]).sort((a, b) => allCats.indexOf(a[0].category) - allCats.indexOf(b[0].category) || a[1] - b[1]).map(p => p[0])
+    const d = picked.map(x => {
       const order = shuffle(x.options.map((_, i) => i))
       return { ...x, options: order.map(i => x.options[i]), answer: order.indexOf(x.answer) }
     })
@@ -107,7 +111,12 @@ export default function App() {
 
   const toggleMute = () => { const m = !muted; setMuted(m); sfx.setMuted(m) }
   const upload = e => { const f = e.target.files[0]; if (f) f.text().then(load) }
-  const toggleCat = c => setCats(cs => cs.includes(c) ? cs.filter(x => x !== c) : [...cs, c])
+  // ตอนเลือกครบทุกหัวข้ออยู่: กดชิป = เลือกเฉพาะหัวข้อนั้น / หลังจากนั้นกดเพิ่ม-ลดได้ (ห้ามว่างเปล่า)
+  const toggleCat = c => setCats(cs =>
+    cs.length === allCats.length ? [c]
+    : cs.includes(c) ? (cs.length === 1 ? cs : cs.filter(x => x !== c))
+    : [...cs, c])
+  const catCount = c => all.filter(q => q.category === c).length
 
   return (
     <div className="app">
@@ -116,11 +125,13 @@ export default function App() {
       {screen === 'menu' && (
         <main className="card menu">
           <h1>⚡ QuizBlast</h1>
-          <p className="sub">System Analysis & Design · Week 10–12</p>
+          <p className="sub">System Analysis & Design · เตรียมสอบ</p>
           <input className="name" placeholder="ชื่อผู้เล่น / Nickname" value={name} maxLength={16} onChange={e => setName(e.target.value)} />
           <div className="chips">
-            {allCats.map(c => <button key={c} className={'chip' + (cats.includes(c) ? ' on' : '')} onClick={() => toggleCat(c)}>{c}</button>)}
+            <button className={'chip' + (cats.length === allCats.length ? ' on' : '')} onClick={() => setCats(allCats)}>ทั้งหมด ({all.length})</button>
+            {allCats.map(c => <button key={c} className={'chip' + (cats.length < allCats.length && cats.includes(c) ? ' on' : '')} onClick={() => toggleCat(c)}>{c} ({catCount(c)})</button>)}
           </div>
+          <label className="group"><input type="checkbox" checked={grouped} onChange={e => setGrouped(e.target.checked)} /> เรียงตามหัวข้อ (ไม่สลับหัวข้อไปมา)</label>
           <label className="count">จำนวนข้อ: <b>{Math.min(count, pool.length)}</b> / {pool.length}
             <input type="range" min="3" max={Math.max(3, pool.length)} value={Math.min(count, pool.length)} onChange={e => setCount(+e.target.value)} />
           </label>

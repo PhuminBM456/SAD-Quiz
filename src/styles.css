@@ -38,3 +38,5 @@ button{font:inherit;cursor:pointer;border:0;color:inherit}
 .reveal.ok b{color:#7dff6b}.reveal.no b{color:#ff8a9b}
 .reveal button{background:#fff;color:#46178f;padding:10px 20px;border-radius:10px;font-weight:700}
 @media(max-width:560px){.grid{grid-template-columns:1fr}.ans{min-height:64px;padding:14px}}
+
+.group{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-size:.95rem;cursor:pointer}
