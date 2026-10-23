@@ -1,0 +1,312 @@
+category,question,a,b,c,d,answer,time
+Week 10 · User Interface,"Which interface defines how systems exchange data through APIs, file transfers or messaging?",Navigation Interface,User Interface,System Interface,Graphical User Interface,C,25
+Week 10 · User Interface,Which three mechanisms make up interface design?,"Layout, Color, Font","Menu, Form, Report","Login, Search, Logout","Navigation, Input, Output",D,20
+Week 10 · User Interface,What does WIMP stand for in a GUI?,"Web, Input, Memory, Process","Windows, Icons, Menus, Pointers","Widgets, Icons, Media, Panels","Windows, Inputs, Modules, Pages",B,20
+Week 10 · User Interface,Which UI principle means users always know where they are?,Aesthetics,Minimal Effort,Content Awareness,Layout,C,20
+Week 10 · User Interface,Minimum WCAG contrast ratio recommended for text?,3.5 : 1,4.5 : 1,2 : 1,10 : 1,B,20
+Week 10 · User Interface,Maximum number of typefaces recommended in one interface?,5,6,2,4,C,20
+Week 10 · User Interface,What do breadcrumbs show?,Server error logs,Keyboard shortcuts,Items in the shopping cart,The path taken to arrive at a page,D,20
+Week 10 · User Interface,The '3-click rule' says users should...,See at most 3 menu levels,Reach any action in 3 clicks or fewer,Fill at most 3 form fields,Wait at most 3 seconds for a page,B,20
+Week 10 · User Interface,Showing basic options first and advanced ones on demand is called...,Direct manipulation,Responsive design,Progressive disclosure,Source data automation,C,20
+Week 10 · User Interface,What is the FIRST activity in the UI design process?,Interface evaluation,Interface standards design,Interface prototyping,Use scenario development,D,20
+Week 10 · User Interface,"A diagram of how all screens, forms and reports relate is the...",Heuristic checklist,Interface structure design,Interface template,Use case diagram,B,20
+Week 10 · User Interface,Low-fidelity digital layouts made in Figma or Balsamiq are called...,Walkthroughs,Paper sketches,Coded prototypes,Wireframes,D,20
+Week 10 · User Interface,Experts checking a design against Nielsen's 10 heuristics is...,Interactive user testing,Walkthrough evaluation,Heuristic evaluation,A/B testing,C,20
+Week 10 · User Interface,"In A/B testing, two design variants are...",Reviewed by experts with a checklist,Drawn on paper,Shown to different user groups and compared with analytics,Simulated step by step by the team,C,20
+Week 10 · User Interface,Before a destructive action the interface should...,Execute it immediately,Disable undo,Hide the action,Ask for confirmation (and offer undo),D,20
+Week 10 · User Interface,Progress bars or spinners should appear for actions longer than...,2 seconds,10 seconds,30 seconds,1 minute,A,20
+Week 10 · User Interface,Radio buttons are best for...,Single choice from 2-6 mutually exclusive options,Approximate numeric values,Multiple selections,On/off settings,A,20
+Week 10 · User Interface,Checking that the end date is after the start date is which validation?,Completeness,Consistency,Range,Format,B,20
+Week 10 · User Interface,Which is an example of source data automation?,Copy-pasting between sheets,OCR receipt capture,Dictating to a clerk,Retyping from paper forms,B,20
+Week 10 · User Interface,"To avoid bias, a bar chart's Y-axis should...",Change scale between charts,Be truncated to exaggerate differences,Use 3D effects,Start at zero,D,20
+Week 11 · Implementation & Testing,Brooks's Law says that adding manpower to a late software project...,Makes it later,Has no effect,Makes it finish sooner,Reduces cost,A,20
+Week 11 · Implementation & Testing,Which environment is used for integration and QA testing?,Development,Staging / QA,Backup,Production,B,20
+Week 11 · Implementation & Testing,What is the most common (and most expensive) shortcut in projects?,Code reviews,Using version control,Daily standups,Skipping testing,D,20
+Week 11 · Implementation & Testing,Bugs found in production cost roughly how much more to fix?,2x,10-100x,They are cheaper,About the same,B,20
+Week 11 · Implementation & Testing,"Dijkstra: testing can prove the presence of bugs, but never...",Their cost,Their absence,Their cause,Their severity,B,20
+Week 11 · Implementation & Testing,What is the correct order of the four testing stages?,"Integration, Unit, Acceptance, System","Unit, System, Integration, Acceptance","Acceptance, System, Integration, Unit","Unit, Integration, System, Acceptance",D,20
+Week 11 · Implementation & Testing,Black-box testing focuses on...,"Inputs, outputs and expected behavior",Internal code paths,Branches and conditions,Code coverage,A,20
+Week 11 · Implementation & Testing,Which is another name for white-box testing?,Glass-box testing,Functional testing,Specification-based testing,Acceptance testing,A,20
+Week 11 · Implementation & Testing,Which test follows data step by step through processes to check transformations and handoffs?,Use-scenario testing,User interface testing,Alpha testing,Data flow testing,D,25
+Week 11 · Implementation & Testing,Penetration tests and vulnerability scans belong to...,Usability testing,Security testing,Documentation testing,Requirements testing,B,20
+Week 11 · Implementation & Testing,Load testing and stress testing belong to...,Alpha testing,Usability testing,Unit testing,Performance testing,D,20
+Week 11 · Implementation & Testing,Alpha testing is performed by...,Internal users or QA in a controlled environment,External auditors,End users in their own environment,Competitors,A,20
+Week 11 · Implementation & Testing,Beta testing is performed by...,Project sponsors only,The QA team only,Real end users with real data in their own environment,The developers,C,20
+Week 11 · Implementation & Testing,Only after successful ______ testing does the system move to deployment.,Unit,Alpha-only,Acceptance,Integration,C,20
+Week 11 · Implementation & Testing,In Test-Driven Development (TDD) you first...,"Write all code, then tests",Skip tests,"Write failing tests, then minimal code to pass",Write documentation,C,20
+Week 11 · Implementation & Testing,Behavior-Driven Development (BDD) writes tests in the form...,If / Else / End,Plan / Do / Check,Given / When / Then,Input / Process / Output,C,20
+Week 11 · Implementation & Testing,Shift-left testing means...,Starting testing as early as requirements analysis,Testing only in production,Testing only at the end,Moving testers to another team,A,20
+Week 11 · Implementation & Testing,"In Continuous Integration, failing automated tests...",Are fixed next quarter,Are ignored,Delete the commit,Block the merge,D,20
+Week 11 · Implementation & Testing,Which documentation type gives step-by-step guides for performing business tasks?,Procedural manuals,Reference documents,Tutorials,Glossaries,A,20
+Week 11 · Implementation & Testing,'Docs-as-code' means documentation is...,Stored in the same repository as the source code,Written only after release,Kept in email,Printed and bound,A,20
+Week 11 · Implementation & Testing,Which phrasing follows good documentation guidelines?,Click Save.,Saving is to be done via the Save button.,The Save button should be clicked.,One might consider clicking Save.,A,20
+Week 12 · Migration & Maintenance,Lewin's change model has which three stages?,"Initiate, Execute, Close","Analyze, Design, Build","Unfreeze, Move, Refreeze","Plan, Do, Check",C,20
+Week 12 · Migration & Maintenance,Which three dimensions of readiness does a migration plan cover?,"Hardware, Software, Network","Plan, Build, Run","Business, Technical, People","Cost, Time, Scope",C,20
+Week 12 · Migration & Maintenance,Direct conversion is also known as...,Pilot conversion,Modular conversion,Big-bang conversion,Parallel conversion,C,20
+Week 12 · Migration & Maintenance,Which conversion style has the lowest risk but is the most expensive?,Parallel,Simultaneous,Whole-system,Direct,A,20
+Week 12 · Migration & Maintenance,Pilot conversion means...,Running only the old system,Converting all sites at once,Converting in waves,Deploying first to one location or user group,D,20
+Week 12 · Migration & Maintenance,"Converting Region 1 in Week 1, Region 2 in Week 3 and Region 3 in Week 5 is...",Phased conversion,Pilot conversion,Direct conversion,Simultaneous conversion,A,20
+Week 12 · Migration & Maintenance,All 50 branches switching on the same Saturday night is...,Modular conversion,Simultaneous conversion,Pilot conversion,Phased conversion,B,20
+Week 12 · Migration & Maintenance,Modular (incremental) conversion is common with...,Microservices and SOA,Tightly coupled monoliths,Paper-based systems,Spreadsheets,A,20
+Week 12 · Migration & Maintenance,Mission-critical systems where data loss is unacceptable favor...,Parallel conversion,Skipping the pilot,Direct conversion,Whole-system big-bang,A,20
+Week 12 · Migration & Maintenance,What is the correct order of the data conversion steps?,"Extract, Load, Transform, Validate, Cleanse","Cleanse, Load, Extract, Transform, Validate","Load, Extract, Cleanse, Validate, Transform","Extract, Cleanse, Transform, Load, Validate",D,20
+Week 12 · Migration & Maintenance,An untested rollback procedure is...,Good enough,Required only for big-bang,Optional,Not a plan,D,20
+Week 12 · Migration & Maintenance,"Monitoring, alerting and logging should be set up...",One month after go-live,Before go-live,Only if problems occur,On day one after go-live,B,20
+Week 12 · Migration & Maintenance,About what share of change initiatives fail due to resistance and poor management support?,30%,95%,10%,70%,D,25
+Week 12 · Migration & Maintenance,Who is the executive that champions the new system and provides authority and budget?,Change agent,Potential adopter,Help desk agent,Sponsor,D,20
+Week 12 · Migration & Maintenance,What is the strategy for ready adopters?,Ignore them,Delay their access,Use management authority,Recruit them as change champions,D,20
+Week 12 · Migration & Maintenance,What is the strategy for resistant adopters?,Fire them,Mandate immediately,Give no training,"Listen, involve them in problem-solving; authority as last resort",D,20
+Week 12 · Migration & Maintenance,Refresher training should be scheduled at...,30 and 90 days after launch,Never,1 and 2 years,Only before go-live,A,20
+Week 12 · Migration & Maintenance,Which are the three post-implementation activities?,"Support, Maintenance, Project assessment","Design, Build, Test","Backup, Restore, Archive","Plan, Analyze, Code",A,20
+Week 12 · Migration & Maintenance,"In processing a change request, which step comes right after Triage?",Approve,Implement,Analyze,Verify,C,20
+Week 12 · Migration & Maintenance,Feature flags allow...,Gradual rollout and instant rollback without redeploying,Printing manuals,Faster typing,Skipping testing,A,20
+Week 12 · Migration & Maintenance,System reviews are scheduled at which milestones?,1 and 5 years,"3, 6 and 12 months",1 week and 1 month,Only at project end,B,20
+Week 12 · Migration & Maintenance,The '4Ls' retrospective format stands for...,"Log, Locate, Lock, Leave","Lead, Listen, Learn, Look","Liked, Learned, Lacked, Longed For","Load, Link, Launch, Learn",C,20
+Week 10 · User Interface,The UI is the primary point of contact between...,Servers and clouds,Users and the system,Developers and testers,Two databases,B,20
+Week 10 · User Interface,"Which mechanism covers how the system captures information (forms, voice, touch, file uploads)?",Output,Navigation,Layout,Input,D,25
+Week 10 · User Interface,"Menus, buttons, gestures and links belong to which mechanism?",Validation,Navigation,Output,Input,B,20
+Week 10 · User Interface,"Screens, reports, notifications and dashboards belong to which mechanism?",Input,Output,Storage,Navigation,B,20
+Week 10 · User Interface,Responsive design means...,"The same GUI adapts across desktop, tablet and mobile",The system responds in under 1 second,The help desk replies quickly,Users respond to surveys,A,20
+Week 10 · User Interface,Which are emerging interface types named in the lecture?,Command-line only,"Conversational UIs, AR/VR and AI-assisted interactions",Batch job decks,Punch cards and teletypes,B,20
+Week 10 · User Interface,Which is NOT one of the six core UI principles?,Layout,Security,Minimal Effort,Consistency,B,20
+Week 10 · User Interface,Which principle says the interface must be easy for beginners AND experts?,Layout,Aesthetics,User Experience,Consistency,C,20
+Week 10 · User Interface,Which principle asks for predictable patterns throughout?,Content Awareness,Layout,Consistency,Aesthetics,C,20
+Week 10 · User Interface,Which principle aims for the fewest clicks and keystrokes?,Layout,Minimal Effort,Content Awareness,Aesthetics,B,20
+Week 10 · User Interface,A screen is typically divided into which three zones?,"Login, home, logout","Input, process, output","Header, ads, popup","Navigation, work/content, status/footer",D,20
+Week 10 · User Interface,Which layout practice minimizes eye and mouse movement?,Using different sizes per screen,Scattering related fields,Grouping related information together,Changing layout on every screen,C,20
+Week 10 · User Interface,A grid system is used to...,Align elements predictably,Encrypt data,Draw charts,Validate input,A,20
+Week 10 · User Interface,"Which navigation layout suits complex apps, and which suits simple marketing sites?","Top nav for complex apps, sidebar for simple sites",Hamburger for both,"Sidebar for complex apps, top nav for simple sites",Footer links for both,C,20
+Week 10 · User Interface,Card-based layouts are commonly used for...,Database schemas,Payroll runs,Printed reports only,Dashboards,D,20
+Week 10 · User Interface,Which helps users know where they are right now?,Longer menus,Active-state highlighting in navigation,Hidden labels,Random banners,B,20
+Week 10 · User Interface,"Dates, version numbers and timestamps are used to...",Encrypt data,Orient users,Speed up the server,Replace screen titles,B,20
+Week 10 · User Interface,"Tooltips, inline hints and info icons are examples of...",Contextual help,Batch processing,Source data automation,Conversion strategies,A,20
+Week 10 · User Interface,Using ALL CAPS for body text reduces readability by about...,1-2%,80%,50%,10-20%,D,20
+Week 10 · User Interface,"In a UI, color should be used to...",Only decorate,"Separate and categorize, not just decorate",Replace labels,Hide errors,B,20
+Week 10 · User Interface,Which supports accessibility according to the lecture?,Color as the only signal,Small light-gray text,"Dark mode, high-contrast mode and grayscale-friendly design",Animated backgrounds,C,20
+Week 10 · User Interface,Which helps expert users work faster?,Hidden menus,Longer wizards,Keyboard shortcuts and command palettes,More confirmation dialogs,C,20
+Week 10 · User Interface,Which usability metrics does the lecture list?,"Lines of code, commits, bugs","Task completion time, error rate, satisfaction","CPU, RAM, disk","Revenue, profit, churn",B,20
+Week 10 · User Interface,"In low-turnover environments, what can offset interface complexity?",Fewer testers,More colors,Training,Bigger fonts,C,20
+Week 10 · User Interface,Using the same word for the same concept is consistency in...,Visual language,Navigation controls,Report design,Terminology,D,20
+Week 10 · User Interface,Why should a UI follow platform conventions?,Users bring expectations from other apps,It avoids testing,Browsers require it,It is cheaper to print,A,20
+Week 10 · User Interface,"Auto-fill, auto-complete, smart defaults and remembered preferences serve which principle?",Aesthetics,Content Awareness,Minimal Effort,Layout,C,25
+Week 10 · User Interface,The UI design process is described as...,A one-time linear waterfall,Three parallel tracks,A random walk,An iterative cycle of five activities,D,20
+Week 10 · User Interface,Which five activities form the UI design process (in order)?,"Standards, evaluation, scenarios, structure, prototyping","Scenario development, structure design, standards design, prototyping, evaluation","Evaluation, prototyping, structure, standards, scenarios","Prototyping, scenarios, evaluation, standards, structure",B,20
+Week 10 · User Interface,Use scenarios should include...,Only errors,Only admin tasks,The happy path and key error/exception paths,Only the happy path,C,20
+Week 10 · User Interface,Which modern tools support scenario development?,Gantt charts,User journey maps and task flow diagrams,Balance sheets,ER diagrams only,B,20
+Week 10 · User Interface,An interface structure diagram uses boxes and lines. What do they represent?,Screens and navigation paths,Classes and objects,Tables and keys,Servers and cables,A,20
+Week 10 · User Interface,An interface structure diagram is similar to a...,Balance sheet,Class diagram,Site map,Gantt chart,C,20
+Week 10 · User Interface,An interface metaphor is...,"The real-world concept the system resembles (e.g., shopping cart, inbox)",A color palette,A database table,A test script,A,20
+Week 10 · User Interface,Which elements does interface standards design define?,"Alpha, beta, gamma","Metaphor, objects, actions, icons, templates","Stage, gate, release","Hardware, OS, network",B,20
+Week 10 · User Interface,Design systems such as Material Design and Apple HIG...,Store user data,Compile code,Replace testing,Codify interface standards,D,20
+Week 10 · User Interface,"Which prototype is quick, hand-drawn and zero cost?",Coded prototypes,Interactive prototypes,Wireframes,Paper sketches,D,20
+Week 10 · User Interface,"Clickable prototypes in Figma, InVision or Axure are...",Wireframes,Interactive prototypes,Production code,Paper sketches,B,20
+Week 10 · User Interface,HTML/CSS/JS or framework-based prototypes for realistic behavior testing are...,Heuristic checklists,Wireframes,Paper sketches,Coded prototypes,D,20
+Week 10 · User Interface,A team simulating a user's journey to find friction points step by step is...,Heuristic evaluation,Interactive user testing,A/B testing,Walkthrough evaluation,D,20
+Week 10 · User Interface,"Real users perform tasks while observers note confusion, errors and completion time. This is...",Walkthrough evaluation,A/B testing,Interactive / user testing,Heuristic evaluation,C,25
+Week 10 · User Interface,A basic navigation principle is to assume users...,Always read manuals,Are all experts,Have attended training,Have not read documentation or attended training,D,20
+Week 10 · User Interface,"To prevent mistakes, unavailable actions should be...",Deleted,Left clickable,Hidden randomly,Disabled,D,20
+Week 10 · User Interface,"To simplify recovery, provide...",Only a logout button,"Undo, back and cancel everywhere",A confirmation after every click,Only an exit button,B,20
+Week 10 · User Interface,Which keeps commands and labels consistent?,Using the same grammar order,Using codes,Changing word order per screen,Random labels,A,20
+Week 10 · User Interface,"Command palettes (Ctrl+K), search bars and voice commands are...",Command & Search controls,Output controls,Direct manipulation,Menus & Tabs,A,20
+Week 10 · User Interface,"For menus, the lecture says to aim for...",Deep and broad,Broad and shallow,Hidden,Deep and narrow,B,20
+Week 10 · User Interface,"Drag-and-drop, swipe and pinch-to-zoom are...",Batch controls,Command & Search,Direct manipulation (intuitive but not discoverable for all actions),Validation rules,C,20
+Week 10 · User Interface,Best practice for navigation controls?,Use only voice,Combine multiple types to serve novice and expert users,Use only one type,Avoid menus,B,20
+Week 10 · User Interface,Which menu hides navigation behind an icon (mobile-first)?,Tab bar,Hamburger menu,Context menu,Top nav bar,B,20
+Week 10 · User Interface,Which menu suits mobile apps with 3-5 top-level sections?,Tab bar,Command palette,Drop-down,Sidebar / drawer,A,20
+Week 10 · User Interface,Right-click actions for power users are provided by a...,Tab bar,Hamburger menu,Top nav bar,Context menu,D,20
+Week 10 · User Interface,Which menu is best for complex apps with many sections?,Context menu,Sidebar / drawer,Drop-down,Tab bar,B,20
+Week 10 · User Interface,Which menu offers sub-categories under a parent item?,Hamburger,Tab bar,Drop-down,Command palette,C,20
+Week 10 · User Interface,Which menu provides primary navigation that is always visible?,Context menu,Top nav bar,Hamburger menu,Command palette,B,20
+Week 10 · User Interface,Messages should be...,Humorous,Full of codes,"Clear, concise and actionable",Technical and detailed,C,20
+Week 10 · User Interface,Error messages should avoid...,Negative phrasing and humor,Plain language,Explaining the fix,The user's own language,A,20
+Week 10 · User Interface,A good error message...,Explains what happened and how to fix it,Blames the user,Says only 'Oops!',Shows only an error code,A,20
+Week 10 · User Interface,Help should be...,Only by email,Only in a printed manual,Hidden,"Context-sensitive near the field, with a searchable help center",D,20
+Week 10 · User Interface,Capturing data at the source reduces...,Color use,Screen count,Security,"Duplication, errors and cost",D,20
+Week 10 · User Interface,Input should be validated...,Only at month-end,"In real time, not just on form submission",Never,Only by administrators,B,20
+Week 10 · User Interface,Input control should match the...,Nature (data type) of the input,Screen resolution,Developer's preference,Budget,A,20
+Week 10 · User Interface,Which is an example of online (real-time) processing?,Payroll runs,Nightly report generation,Data imports,Banking transfers,D,20
+Week 10 · User Interface,Which is an example of batch processing?,E-commerce orders,Real-time chat,Banking transfers,Payroll runs,D,20
+Week 10 · User Interface,NFC / RFID tags are used for...,Receipt capture,Report printing,Contactless payments and asset tracking,Face login,C,20
+Week 10 · User Interface,Biometric sensors capture...,Documents,Temperature,Fingerprint and facial recognition login,Barcodes,C,20
+Week 10 · User Interface,IoT sensors capture...,Menus,"Temperature, motion and environmental data",Receipts,Fingerprints,B,20
+Week 10 · User Interface,API integrations as source data automation provide...,Auto-sync from other systems,Manual typing,Printing,Dictation,A,20
+Week 10 · User Interface,QR / barcode scanners are used in...,Temperature logging,Real-time chat,Face login,"Retail, inventory and logistics",D,20
+Week 10 · User Interface,Checkboxes are best for...,On/off settings,Multiple selections from a list,File attachments,Single choice from 2-6 options,B,20
+Week 10 · User Interface,Toggle switches are best for...,Multiple choice,Files,On/off binary settings,Dates,C,20
+Week 10 · User Interface,Sliders are best for...,Exact IDs,Files,An approximate numeric value from a range,Free text,C,20
+Week 10 · User Interface,Date/time pickers are best for...,Files,Free text,Binary settings,Selecting dates or times via a calendar UI,D,20
+Week 10 · User Interface,Drop-down / select controls are best for...,On/off settings,Multiple selections,Single selection from a longer list,Files,C,20
+Week 10 · User Interface,Number fields are best for...,Files,Numeric values with increment/decrement,Free-form comments,Dates,B,20
+Week 10 · User Interface,File upload controls are best for...,Names,Ranges,Binary settings,"Documents, images and attachments",D,20
+Week 10 · User Interface,Text fields are best for...,Single choice of 2-6 options,On/off settings,Calendar dates,"Free-form text: names, addresses, comments",D,20
+Week 10 · User Interface,Validation type: all required fields filled before submission,Format,Range,Consistency,Completeness,D,20
+Week 10 · User Interface,"Validation type: data matches an expected pattern (email, phone, date)",Format,Range,Completeness,Database / lookup,A,20
+Week 10 · User Interface,Validation type: numeric values within min/max bounds,Range,Consistency,Completeness,Format,A,20
+Week 10 · User Interface,"Validation type: value exists in the system (e.g., a valid product ID)",Database / lookup,Format,Completeness,Range,A,20
+Week 10 · User Interface,Validation type: showing a green check or red error as the user types,Range,Batch,Completeness,Real-time inline,D,20
+Week 10 · User Interface,"For output design, you should first understand...",The printer brand,The developer's mood,The server color,How the report will be used (reference vs full read),D,20
+Week 10 · User Interface,Managing information load in output means...,Include as little as possible,Include everything available,"Include all needed data, nothing more",Include only totals,C,20
+Week 10 · User Interface,Which export options should output provide?,None,Only screenshots,Only paper,"PDF, CSV and print-friendly layouts",D,20
+Week 10 · User Interface,Detail reports are...,Full record data in response to a query for in-depth review,Aggregated trends,Real-time visual overviews,Push alerts,A,20
+Week 10 · User Interface,Summary reports are...,Full record data,"Aggregated data, sorted and grouped to highlight trends",Push alerts,Real-time visual overviews,B,20
+Week 10 · User Interface,Dashboards are...,Printed summaries,"Real-time visual overviews with charts, KPIs and status indicators",Email only,Full record listings,B,20
+Week 10 · User Interface,Notifications are...,"Push alerts, emails or in-app banners triggered by events or thresholds",Detail reports,Summary reports,Dashboards,A,20
+Week 10 · User Interface,"When comparing multiple charts, you should use...",Different scales for variety,3D effects,Color only,Consistent scales,D,20
+Week 10 · User Interface,Why avoid 3D effects in charts?,They are not colorful,They are too fast,They use less memory,They distort proportions and reduce accuracy,D,20
+Week 10 · User Interface,Charts should be labeled clearly because...,Color is always enough,Labels slow users down,You should not rely solely on color,Labels are illegal,C,20
+Week 10 · User Interface,Which chart type fits trends over time?,Bar chart,Pie chart,Scatter plot,Line chart,D,20
+Week 10 · User Interface,Which chart type fits comparisons across categories?,Line chart,Bar chart,Pie chart,Scatter plot,B,20
+Week 10 · User Interface,Which chart type fits correlation between two variables?,Bar chart,Pie chart,Scatter plot,Line chart,C,20
+Week 10 · User Interface,"Pie charts should only be used for parts of a whole, with how many slices?",1,More than 12,2-5,10-20,C,20
+Week 11 · Implementation & Testing,Implementation is the development of...,Only the database,Only the source code,"All parts of the system: software, infrastructure, documentation and new procedures",Only the user interface,C,20
+Week 11 · Implementation & Testing,Testing is...,A systematic process verifying the system performs as specified in requirements and design,Writing documentation,Random clicking,Only fixing bugs,A,20
+Week 11 · Implementation & Testing,Documentation is...,Source code only,Marketing material,Written and digital materials helping users operate and developers maintain the system,Only printed manuals,C,20
+Week 11 · Implementation & Testing,Which are the project manager's three main tasks in programming?,"Selling, billing, supporting","Assigning tasks, coordinating activities, managing the schedule","Designing, drawing, painting","Coding, testing, deploying",B,20
+Week 11 · Implementation & Testing,Assigning tasks involves...,Assigning only seniors,Random assignment,Giving everyone the same task,Breaking work into well-defined units and matching skills to complexity,D,20
+Week 11 · Implementation & Testing,Which tools help visualize work-in-progress and bottlenecks?,Email chains,Paper memos,Spreadsheets only,"Agile boards (Jira, Azure DevOps, Linear)",D,20
+Week 11 · Implementation & Testing,"Brooks's Law: after the optimal team size, adding people increases...",Testing coverage,Code quality,Communication overhead,Speed,C,20
+Week 11 · Implementation & Testing,Preferred team size according to the lecture?,One person only,Whole company,Very large groups,"Small, focused teams ('two-pizza teams')",D,20
+Week 11 · Implementation & Testing,Large projects should be broken into...,Random files,Small independent modules parallel teams can own,A single script,One giant module,B,20
+Week 11 · Implementation & Testing,Daily standups or async check-ins are used to...,Assign blame,Replace testing,Surface blockers early,Write documentation,C,20
+Week 11 · Implementation & Testing,Which are the three environments listed?,"Local, Cloud, Edge","Development, Staging/QA, Production","Design, Build, Run","Alpha, Beta, Gamma",B,20
+Week 11 · Implementation & Testing,Which version control branching strategies are named?,Waterfall and spiral,Pilot and parallel,Alpha and beta,GitFlow and trunk-based,D,20
+Week 11 · Implementation & Testing,CI/CD pipelines automate...,"Build, test and deploy",Meetings,Hiring,Requirements,A,20
+Week 11 · Implementation & Testing,All changes should be tracked through...,Email attachments,Pull requests and code reviews,Shared USB drives,Verbal agreement,B,20
+Week 11 · Implementation & Testing,Initial estimates should be used as...,Secret,Fixed forever,Ignored,A baseline refined with each sprint or milestone,D,20
+Week 11 · Implementation & Testing,Scope creep is guarded against by...,Skipping testing,A change control process,Adding more staff,Ignoring requests,B,20
+Week 11 · Implementation & Testing,Why monitor minor slippage?,They reduce cost,They fix themselves,Small delays compound quickly,They never matter,C,20
+Week 11 · Implementation & Testing,A risk register should be...,Kept secret,Created once and forgotten,Only for finance,Maintained and considered at every iteration,D,20
+Week 11 · Implementation & Testing,When deadlines are unrealistic you should...,Remove documentation,Drop version control,Skip testing,Never sacrifice quality,D,20
+Week 11 · Implementation & Testing,Which help forecast completion?,Color palettes,Heuristics,Wireframes,Velocity tracking and burndown charts,D,20
+Week 11 · Implementation & Testing,Buffer time should be built in especially for...,"Unknowns, especially new technology",Printing,Holidays only,Familiar tasks,A,20
+Week 11 · Implementation & Testing,Which classic mistake is: new frameworks require learning time?,No version control discipline,Skipping testing,Under-skilled staffing,Bleeding-edge tech,D,20
+Week 11 · Implementation & Testing,Which classic mistake causes more mentoring and rework?,Bleeding-edge tech,Too many standups,Skipping testing,Under-skilled staffing (junior-heavy teams),D,20
+Week 11 · Implementation & Testing,"Without proper branching and merge strategies, developers...",Need no tests,"Overwrite each other's work, causing regressions",Work faster,Get free coverage,B,20
+Week 11 · Implementation & Testing,A test plan is...,A list of bugs,A source file,"A structured document defining what will be tested, how and by whom",A user manual,C,20
+Week 11 · Implementation & Testing,"Since testing every input combination is impossible, you should...",Prioritize by risk and usage frequency,Test only the happy path,Test randomly,Skip testing,A,20
+Week 11 · Implementation & Testing,Good test plans include...,Only invalid data,Edge cases and nonsensical but valid data,Only typical data,No data,B,20
+Week 11 · Implementation & Testing,The modern approach to test cases is to write them...,Before or alongside code,After release,Never,Only at the end,A,20
+Week 11 · Implementation & Testing,Regression tests should be...,Run once a year,Manual only,Skipped,Automated and run on every change via CI/CD,D,20
+Week 11 · Implementation & Testing,"Because reproducing the exact sequence that caused a bug is hard, you should...",Delete logs,Restart the server,Ignore the bug,Log everything,D,20
+Week 11 · Implementation & Testing,Which combination does the testing philosophy recommend?,Automated tests plus manual exploratory testing,Neither,Only automated,Only manual,A,20
+Week 11 · Implementation & Testing,Never test modules in isolation without...,A manager,A printer,An overall testing strategy,A coffee,C,20
+Week 11 · Implementation & Testing,Most errors are discovered during which testing stages?,Documentation testing,Production only,Acceptance and beta,Unit and integration testing,D,20
+Week 11 · Implementation & Testing,Which frameworks are named for unit tests?,"Figma, Axure, Balsamiq","Swagger, Postman, Loom","Jira, Linear, Trello","JUnit, pytest, Jest, xUnit",D,20
+Week 11 · Implementation & Testing,User interface testing in integration testing verifies...,Each screen and interaction through the full UI flow,Only server logs,Only database tables,Only security,A,20
+Week 11 · Implementation & Testing,Use-scenario testing...,Walks through each user story or use case end-to-end,Tests hardware,Tests only one module,Tests printers,A,20
+Week 11 · Implementation & Testing,API / system interface testing verifies...,Button colors,Training quality,Font sizes,"Data exchange via APIs, webhooks, message queues or file transfers",D,20
+Week 11 · Implementation & Testing,Requirements testing confirms that...,Only docs exist,Only the UI looks nice,The integrated system meets all functional requirements,Only code is clean,C,20
+Week 11 · Implementation & Testing,Usability testing in system testing has real users evaluate...,Network cables,Database size,Server CPU,"Ease of use, task completion and satisfaction",D,20
+Week 11 · Implementation & Testing,Documentation testing checks that...,Backups exist,Source code compiles,Servers run,"Help guides, tooltips and manuals are accurate and complete",D,20
+Week 11 · Implementation & Testing,"In the error discovery chart, roughly what share of defects is found in the earliest stage?",90%,45%,5%,2%,B,25
+Week 11 · Implementation & Testing,The cost of fixing a bug grows ______ the later it is found.,Downward,Not at all,Exponentially,Linearly,C,20
+Week 11 · Implementation & Testing,Reference documents are designed for...,Looking up specific functions or features,Meeting minutes,Guided exercises,Step-by-step business tasks,A,20
+Week 11 · Implementation & Testing,Tutorials teach users...,Only coding,Only API calls,Major system components through guided exercises and examples,Only legal terms,C,20
+Week 11 · Implementation & Testing,Modern equivalents of procedural manuals include...,Knowledge bases only,API docs,Video tutorials,"SOPs, runbooks, onboarding checklists",D,20
+Week 11 · Implementation & Testing,Modern equivalents of tutorials include...,"Interactive walkthroughs, video tutorials, in-app tours",API docs,Runbooks,SOPs,A,20
+Week 11 · Implementation & Testing,Documentation should be produced...,Only at the end,Never,"Incrementally, not left to the end",After retirement,C,20
+Week 11 · Implementation & Testing,Documentation time should be...,Charged to users,Skipped,Added if time remains,Budgeted into the project plan from the start,D,20
+Week 11 · Implementation & Testing,Online / digital documentation has largely replaced...,Version control,Printed manuals,Source code,Testing,B,20
+Week 11 · Implementation & Testing,API docs can be automated by...,Generating them from code annotations,Printing code,Typing them by hand,Photographing screens,A,20
+Week 11 · Implementation & Testing,Documentation should be reviewed...,Once a decade,Never,With the same rigor as code: peer reviews and version control,Only by marketing,C,20
+Week 11 · Implementation & Testing,Why are structured digital docs useful?,They need printing,They cannot be searched,They are heavier,"Full-text search, multiple formats, easy updates, cheaper than print",D,20
+Week 11 · Implementation & Testing,Documentation topic 'Commands & UI Elements' means documenting...,Only business policy,Only definitions,"Every menu, button, form field and shortcut, with screenshots",Only code,C,20
+Week 11 · Implementation & Testing,Documentation of business tasks should be organized...,Randomly,By screen,By file name,"By workflow, not by screen",D,20
+Week 11 · Implementation & Testing,A documentation glossary should include...,Only prices,"Domain terms, abbreviations and synonyms users might search for",Only source code,Only tests,B,20
+Week 11 · Implementation & Testing,"'Always say select — not sometimes choose, pick or click' illustrates...",Use parallel structure,Use consistent terms,Use active voice,Write short paragraphs,B,20
+Week 11 · Implementation & Testing,'Opening a file / Saving a file / Deleting a file' illustrates...,Parallel structure,Keep it simple,Active voice,Consistent terms,A,20
+Week 11 · Implementation & Testing,'Click Submit. The confirmation screen appears.' illustrates...,Consistent terms,Using jargon,Parallel structure,Interspersing steps with results,D,20
+Week 11 · Implementation & Testing,"Because users scan, documentation should have...",Dense jargon,Walls of text,One long page,Short paragraphs with headings and whitespace,D,20
+Week 11 · Implementation & Testing,Which tools give contextual guidance right where users work?,Email newsletters,Posters,In-app tooltips and tours,Printed binders,C,20
+Week 11 · Implementation & Testing,Which are examples of knowledge base tools?,"Zendesk, Notion, Confluence","Loom, YouTube","Swagger, Postman","Jira, Linear",A,20
+Week 11 · Implementation & Testing,Which are examples of video tutorial tools?,"Loom, YouTube","Swagger, Postman","Git, GitHub","Zendesk, Confluence",A,20
+Week 11 · Implementation & Testing,Which tools auto-generate API documentation?,Notion,Loom,Zendesk,"Swagger/OpenAPI, Postman",D,20
+Week 11 · Implementation & Testing,Chatbots and AI assistants in documentation provide...,Code compilation,Instant answers from documentation via conversational AI,Slower support,Printed pages,B,20
+Week 12 · Migration & Maintenance,System transition is...,Buying hardware,Writing new code,Retiring staff,The organized process of moving from the current system to the new one with minimal disruption,D,20
+Week 12 · Migration & Maintenance,Change management is...,A budget report,A structured approach to shifting people and organizations from a current to a desired state,A coding standard,A server patch,B,20
+Week 12 · Migration & Maintenance,"In Lewin's model, the 'Unfreeze' stage involves...",Retiring servers,Loosening habits and building urgency; communicating the why,Executing the migration,Measuring and celebrating success,B,20
+Week 12 · Migration & Maintenance,"In Lewin's model, the 'Move' stage involves...",Institutionalizing the new way,Writing the report,Executing the migration plan with training and support,Building urgency only,C,20
+Week 12 · Migration & Maintenance,"In Lewin's model, the 'Refreeze' stage involves...","Institutionalizing the new way, stabilizing and measuring success",Executing the migration,Loosening habits,Ignoring users,A,20
+Week 12 · Migration & Maintenance,System support includes...,"Help desks, on-demand training, FAQs, self-service portals and tiered escalation",Only backups,Only bug fixes,Only retrospectives,A,20
+Week 12 · Migration & Maintenance,System maintenance is...,Only user training,"Fixing bugs, applying security patches and adding enhancements",Only retrospectives,Only cutover,B,20
+Week 12 · Migration & Maintenance,Project assessment is...,Retrospectives and system reviews capturing lessons learned,Hardware purchase,Fixing bugs,Help desk work,A,20
+Week 12 · Migration & Maintenance,A migration plan defines...,Only the budget,Only the design,Only the code,"What activities will be performed, when and by whom",D,20
+Week 12 · Migration & Maintenance,A migration plan should include...,Only a schedule,Nothing about failure,Only training,Rollback procedures and stakeholder sign-off before cutover,D,20
+Week 12 · Migration & Maintenance,Data mapping documents map...,Old field to new field and old code to new code,Users to desks,Tests to bugs,Servers to rooms,A,20
+Week 12 · Migration & Maintenance,Trial data conversions should be run...,Never,Before the actual cutover,After go-live,Only in production,B,20
+Week 12 · Migration & Maintenance,Go/no-go criteria are...,Billing rules,Training slides,Measurable checkpoints that must pass before launch,Marketing slogans,C,20
+Week 12 · Migration & Maintenance,Business readiness includes...,Only training,"Process mapping, data migration scripts, updated SOPs and compliance",Only help desk,Only servers,B,20
+Week 12 · Migration & Maintenance,Technical readiness includes...,Only rewards,Only SOPs,"Infrastructure, software hardening, integrations, load tests, monitoring, DR",Only communication plans,C,20
+Week 12 · Migration & Maintenance,Performance baselines are established with...,Surveys,Load tests confirming expected volume can be handled,Color tests,Retrospectives,B,20
+Week 12 · Migration & Maintenance,After data migration you should reconcile...,Meeting notes,Colors,Fonts,"Record counts, totals and key relationships",D,20
+Week 12 · Migration & Maintenance,Disaster recovery preparation includes...,Only meetings,"Backups, failover and documented recovery procedures",Only training,Only SOPs,B,20
+Week 12 · Migration & Maintenance,People readiness includes...,"Communication plan, change champions, role-based training, sandbox, help desk",Only data scripts,Only servers,Only SQL,A,20
+Week 12 · Migration & Maintenance,Change champions are...,Vendors,Competitors,External auditors,Respected peers who advocate for the new system,D,20
+Week 12 · Migration & Maintenance,Training should be...,Identical for everyone,Only for managers,"Role-based, tailored to what each group actually does",Skipped,C,20
+Week 12 · Migration & Maintenance,A sandbox environment lets users...,Skip training,Bypass security,Change production data,Practice without affecting real data,D,20
+Week 12 · Migration & Maintenance,The help desk should be staffed...,"Before go-live, not on day one",A month later,On day one,Never,A,20
+Week 12 · Migration & Maintenance,Go-live is best scheduled during...,Peak season,"A low-activity period (end of month, not quarter-close)",Quarter-close,Holiday sales,B,20
+Week 12 · Migration & Maintenance,Every conversion strategy combines which three decisions?,"Plan, Build, Run","Risk, Reward, Return","Style, Location, Modules","Cost, Time, Scope",C,20
+Week 12 · Migration & Maintenance,Direct (big-bang) conversion has which advantage?,Lower cost and a clean break,Lowest risk,Fallback to old system,Slow rollout,A,20
+Week 12 · Migration & Maintenance,Direct (big-bang) conversion has which main disadvantage?,Too slow,Expensive double staffing,Needs many sites,Highest risk; no fallback to legacy,D,20
+Week 12 · Migration & Maintenance,Direct conversion is best for...,Banks,"Small, non-critical systems or when the old system is unusable",Mission-critical systems,Hospitals,B,20
+Week 12 · Migration & Maintenance,Parallel conversion has which main disadvantage?,Highest risk,No comparison possible,No fallback,Expensive and time-consuming (double staffing and data entry),D,20
+Week 12 · Migration & Maintenance,"In parallel conversion, outputs are...",Hidden,Compared to verify accuracy before retiring the old system,Deleted,Ignored,B,20
+Week 12 · Migration & Maintenance,Pilot conversion example from the lecture?,All 50 branches at once,Region 1 in Week 1,"Launch at the Denver office first, then expand nationally",Big-bang,C,20
+Week 12 · Migration & Maintenance,Simultaneous conversion has what risk profile?,Lowest risk,No risk,Needs no staff,"Higher risk, needs the most support staff",D,20
+Week 12 · Migration & Maintenance,Phased conversion risk is...,Lowest of all,Highest,None,Moderate: slower but more controlled,D,20
+Week 12 · Migration & Maintenance,Whole-system conversion is common with...,Tightly coupled monolithic systems,SOA only,Loosely coupled modules,Microservices,A,20
+Week 12 · Migration & Maintenance,Modular conversion example from the lecture?,All modules at once,"Inventory first, then Orders, then Billing",Billing only,None,B,20
+Week 12 · Migration & Maintenance,"When risk tolerance is low (high-risk), which strategies are favored?",Simultaneous,Direct,Whole-system,Parallel or pilot,D,20
+Week 12 · Migration & Maintenance,Which factor says 'parallel requires paying for two systems'?,Budget,System coupling,Regulation,Timeline,A,20
+Week 12 · Migration & Maintenance,"Some industries require audit trails during transition, favoring...",Skipping testing,Parallel operation,Big-bang,Direct conversion,B,20
+Week 12 · Migration & Maintenance,Complex data migration favors...,Skipping validation,Direct,Simultaneous,Parallel or pilot,D,20
+Week 12 · Migration & Maintenance,Which strategies are slower but reduce risk?,Phased and modular,Simultaneous,Direct,Big-bang,A,20
+Week 12 · Migration & Maintenance,A business contingency plan should...,Be written after failure,Plan for failure scenarios before they happen,Be skipped,Assume nothing fails,B,20
+Week 12 · Migration & Maintenance,During transition the old system should be...,Hidden,Sold,Kept accessible and operational,Deleted immediately,C,20
+Week 12 · Migration & Maintenance,Every critical business process needs...,Nothing,A new logo,A manual workaround,A new vendor,C,20
+Week 12 · Migration & Maintenance,A war room or incident command structure is for...,Go-live day,Retrospectives,Marketing,Requirements gathering,A,20
+Week 12 · Migration & Maintenance,"'If X is not working by 2 PM, we roll back' is a...",Training plan,Data mapping,Retrospective,Time-boxed decision point,D,20
+Week 12 · Migration & Maintenance,Technical checklist: a full backup should be taken...,After go-live,"Immediately before cutover, with the restore procedure tested",One year before,Never,B,20
+Week 12 · Migration & Maintenance,Technical checklist 'Integration Testing' verifies...,Only backups,Only UI colors,"All API endpoints, file transfers and webhooks end-to-end",Only SOPs,C,20
+Week 12 · Migration & Maintenance,"Which step of data conversion fixes duplicates, nulls and errors?",Cleanse,Load,Extract,Validate,A,20
+Week 12 · Migration & Maintenance,Which step maps the old schema to the new schema?,Cleanse,Validate,Transform,Extract,C,20
+Week 12 · Migration & Maintenance,Resistance to change should be...,Ignored,Punished,Celebrated,"Expected, not punished",D,20
+Week 12 · Migration & Maintenance,Change management bridges the gap between...,Code and tests,Technical readiness and actual adoption,Servers and clouds,Cost and profit,B,20
+Week 12 · Migration & Maintenance,The Change Agent is...,The end user,The person or team leading the change effort,The vendor,The executive sponsor,B,20
+Week 12 · Migration & Maintenance,Potential adopters are...,Auditors,End users who must change their daily work,Executives only,Developers only,B,20
+Week 12 · Migration & Maintenance,What are the four steps of change management?,"Plan, do, check, act","Revise policies, assess costs/benefits, motivate adoption, enable adoption","Unfreeze, move, refreeze, repeat","Analyze, design, code, test",B,20
+Week 12 · Migration & Maintenance,Which three management tools support adoption?,"SOPs, measurements and rewards, resource allocation","Pilot, phased, parallel","Alpha, beta, gamma","Servers, routers, cables",A,20
+Week 12 · Migration & Maintenance,"If the old system remains easier and still measured, people will...",Adopt the new one faster,Ignore KPIs,Love both,Avoid the new one,D,20
+Week 12 · Migration & Maintenance,Retiring legacy access after a grace period prevents...,Backups,Training,Shadow IT,Testing,C,20
+Week 12 · Migration & Maintenance,Policy changes should be communicated...,After go-live,Only to managers,Never,"Before go-live, not after",D,20
+Week 12 · Migration & Maintenance,Why do people rationally resist change?,They are lazy,They hate technology,They perceive more personal cost than personal benefit,They are irrational,C,20
+Week 12 · Migration & Maintenance,Which helps build ownership and momentum?,Involve users early and celebrate quick wins,Punish resistors,Delay communication,Hide changes,A,20
+Week 12 · Migration & Maintenance,The Information Strategy motivates adoption by...,Executive mandates,"Facts, demonstrations and before/after comparisons",Punishment,Social pressure,B,20
+Week 12 · Migration & Maintenance,The Political Strategy motivates adoption by...,Surveys only,Facts only,Ignoring users,Organizational authority and social influence,D,20
+Week 12 · Migration & Maintenance,Reluctant adopters need...,Nothing,Removal,"Demos, training and one-on-one coaching",A mandate,C,20
+Week 12 · Migration & Maintenance,Ready adopters should be given...,Late access,Punishment,Nothing,Early access so they can advocate to peers,D,20
+Week 12 · Migration & Maintenance,Training should focus on...,"Helping users accomplish tasks, not on system features",Only managers,Listing all features,Only theory,A,20
+Week 12 · Migration & Maintenance,Scenarios from the design phase provide...,Code,Budget,A natural outline for training content,Hardware lists,C,20
+Week 12 · Migration & Maintenance,Which training methods does the lecture list?,Only videos,Only manuals,Only lectures,"Instructor-led workshops, e-learning, video walkthroughs, sandboxes",D,20
+Week 12 · Migration & Maintenance,Training effectiveness is measured by...,Number of meetings,"Quiz scores, task completion time, support ticket volume",Server uptime,Lines of code,B,20
+Week 12 · Migration & Maintenance,Which is NOT one of the five sources of change requests?,Employee birthdays,Enhancement requests,Infrastructure changes,Bug reports,A,20
+Week 12 · Migration & Maintenance,Which source of change requests is the most common?,Enhancement requests,Bug reports,Strategic directives,Other system projects,B,20
+Week 12 · Migration & Maintenance,"OS upgrades, library updates and cloud migrations are which change source?",Enhancement requests,Bug reports,Strategic directives,Infrastructure changes,D,20
+Week 12 · Migration & Maintenance,Regulatory changes or reorganization are which change source?,Strategic directives,Enhancement requests,Other system projects,Bug reports,A,20
+Week 12 · Migration & Maintenance,New systems or integrations requiring data-flow changes are which source?,Other system projects,Infrastructure changes,Strategic directives,Bug reports,A,20
+Week 12 · Migration & Maintenance,Users requesting new features or workflow improvements are which source?,Strategic directives,Bug reports,Enhancement requests,Infrastructure changes,C,20
+Week 12 · Migration & Maintenance,Which is the correct order of processing a change request?,"Submit, Triage, Analyze, Approve, Implement, Verify","Submit, Implement, Triage, Approve, Analyze, Verify","Triage, Submit, Analyze, Implement, Approve, Verify","Submit, Approve, Triage, Analyze, Implement, Verify",A,20
+Week 12 · Migration & Maintenance,Who authorizes the work in the change request process?,The end user,The vendor,The help desk,Change advisory board,D,20
+Week 12 · Migration & Maintenance,"In DevOps & SRE, which practice drives continuous improvement?",Blaming individuals,Skipping monitoring,Blameless postmortems,Manual deploys,C,20
+Week 12 · Migration & Maintenance,CI/CD for maintenance means every fix...,Is deployed manually,Is coded cowboy-style,"Follows the same automated build, test and deploy pipeline",Skips tests,C,20
+Week 12 · Migration & Maintenance,Observability uses...,"Structured logging, metrics dashboards and distributed tracing",Only backups,Only printed logs,Only surveys,A,20
+Week 12 · Migration & Maintenance,Which tools are named for observability?,"Jira, Linear","Datadog, Grafana, Splunk","Loom, YouTube","Figma, Axure",B,20
+Week 12 · Migration & Maintenance,"In a team review, each member prepares...","A brief reflection on their role, focused on learning not blame",A penalty list,Nothing,A salary request,A,20
+Week 12 · Migration & Maintenance,Common retrospective formats include...,PERT only,Start/Stop/Continue and 4Ls,SWOT only,Gantt only,B,20
+Week 12 · Migration & Maintenance,Lessons learned should be stored in...,A private drawer,Nowhere,A printed binder only,A searchable knowledge base for future teams,D,20
+Week 12 · Migration & Maintenance,The system review compares...,Only logos,Only team size,Only code size,"Actual vs projected costs, benefits, timelines, budgets and scope",D,20
+Week 12 · Migration & Maintenance,The 12-month system review assesses...,"Full ROI, total cost of ownership and strategic alignment",Feature utilization only,Early adoption and critical bugs,Nothing,A,20
+Week 12 · Migration & Maintenance,The 3-month system review examines...,Total cost of ownership,Full ROI,"Early adoption, critical bugs and user satisfaction",Strategic alignment,C,20
+Week 12 · Migration & Maintenance,The 6-month system review examines...,Full ROI,Nothing,"Feature utilization, process efficiency gains, support volume trends",Early adoption only,C,20
+Week 12 · Migration & Maintenance,Which metrics are used in system reviews?,Meeting counts,"Uptime, mean time to resolve, adoption rate, tickets per user",Font sizes,Lines of code,B,20
